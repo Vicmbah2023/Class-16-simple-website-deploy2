@@ -7,9 +7,9 @@ jobs:
   build:
     run-on:ubuntu-latest
     steps:
-    - name: checkout code
+   -  name: Checkout code
       user: actions/checkout@v3
-
+      
     - name: Build
       run:
         echo: "Docker build"
